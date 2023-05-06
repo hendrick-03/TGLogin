@@ -1,0 +1,31 @@
+<resources>
+    tela de cadastro
+    <string name="app_name">TGLogin</string>
+    <string name="nome_ed">Insira o seu nome</string>
+    <string name="pass_ed">Insira sua password</string>
+    <string name="numero_ed">Insira seu numero</string>
+    --------------------------------------------------
+    Tela de login
+    <string name="nome_login">Insira o seu nome</string>
+    <string name="senha_login">Insira a sua senha</string>
+    <string name="Token_login">Cole o token que foi gerado</string>
+    <string name="captcha_login">Inisra o captcha acima</string>
+
+    --------------------------------------------------------
+    Tela de recuperacao
+    <string name="nome_recup">Insira seu nome</string>
+    <string name="telefone_recup">Insira seu telefone</string>
+    <string name="token_recup">Insira o token que foi gerado</string>
+
+    -------------------------------------------------------------
+    Tela de troca de password
+
+    <string name="nova_senha">Insira a sua nova senha</string>
+    <string name="token_change">Insira o token gerado</string>
+
+
+
+
+
+
+</resources>

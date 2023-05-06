@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical"
+    tools:context=".TokenActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Token" />
+
+    <TextView
+        android:id="@+id/token_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token do Firebase:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/token_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:text="Gerar token" />
+
+    <Button
+        android:id="@+id/copiarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:text="Copiar token" />
+
+    <Button
+        android:id="@+id/gravartoken_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:text="Salvar o token" />
+</LinearLayout>

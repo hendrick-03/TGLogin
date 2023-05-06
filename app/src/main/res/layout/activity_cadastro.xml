@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical"
+    android:paddingLeft="20sp"
+    android:paddingTop="10dp"
+    android:paddingEnd="20sp"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela de Cadastro"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/nome_ed"
+        android:layout_width="263dp"
+        android:layout_height="39dp"
+        android:layout_margin="55dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/nome_ed"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/senha_ed"
+        android:layout_width="262dp"
+        android:layout_height="38dp"
+        android:layout_margin="55dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/pass_ed"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/numero_ed"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_margin="55dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/numero_ed"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_bg" />
+
+</LinearLayout>

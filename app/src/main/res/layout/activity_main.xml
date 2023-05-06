@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Hello"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:elevation="8dp"
+        android:translationZ="8dp"
+        />
+
+    <Button
+        android:id="@+id/cadastro_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Cadastro" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_bg"
+        android:text="Tela de Login" />
+
+    <Button
+        android:id="@+id/token_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/black"
+        android:text="Token" />
+
+    <Button
+        android:id="@+id/recuperar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/black"
+        android:text="Recuperar credencias" />
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/black"
+        android:text="Change password" />
+</LinearLayout>

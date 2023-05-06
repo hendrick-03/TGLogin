@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931846953255",
+    "project_id": "tglogin-446e0",
+    "storage_bucket": "tglogin-446e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931846953255:android:11aacad876fe85920a7102",
+        "android_client_info": {
+          "package_name": "ac.mz.tglogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931846953255-gfkaqdti90d3us4g2po3578uhvmhuhs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBYWU1uv_qbWg91NNACiTQLl4H7a8YdwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931846953255-gfkaqdti90d3us4g2po3578uhvmhuhs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

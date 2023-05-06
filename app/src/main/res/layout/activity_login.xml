@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/nome_login"
+        android:layout_width="368dp"
+        android:layout_height="38dp"
+        android:layout_margin="20sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/nome_login"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/senha_Login"
+        android:layout_width="371dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:hint="@string/senha_login"
+        android:layout_margin="20sp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/token_login"
+        android:layout_width="371dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20sp"
+        android:layout_margin="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/Token_login"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        app:srcCompat="@drawable/cap" />
+
+    <EditText
+        android:id="@+id/captcha_login"
+        android:layout_width="371dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20sp"
+        android:layout_margin="20sp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="@string/captcha_login"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/logar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_bg"
+        android:text="Entrar" />
+</LinearLayout>
